@@ -64,9 +64,6 @@ public abstract class Student {
 
     public Iterator getCourseIterator() {
         Iterator<Course> CourseIterator = courses.iterator();
-        /*while(studentIterator.hasNext()){
-            System.out.println(studentIterator.next());
-        }*/
         return CourseIterator;
     }
 
