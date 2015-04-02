@@ -1,0 +1,72 @@
+----------------------------------------------------------------------
+/*
+OUTPUT:
+RUN:
+1. The results of calling the first PrintTranscript method
+that takes an Iterator and a student ID: 
+
+Kevin Wu's transcript:
+|Class: CIS 36B - Grade: A|
+|Class: CIS 27 - Grade: A|
+|Class: MATH 3B - Grade: A+|
+|Class: PHIL 100 - Grade: A+|
+|Class: COM 5 - Grade: A+|
+
+Corey Collier's transcript:
+|Class: CIS 36B - Grade: A-|
+|Class: CIS 27 - Grade: B+|
+|Class: MATH 3B - Grade: A|
+|Class: PHIL 100 - Grade: A|
+|Class: COM 5 - Grade: B+|
+
+Ale Chiodo's transcript:
+|Class: CIS 36A - Grade: D|
+|Class: CIS 5 - Grade: D+|
+|Class: MATH 3A - Grade: C-|
+|Class: PSYCH 100 - Grade: C+|
+|Class: BUS 28 - Grade: C+|
+
+--------------------------------------------
+
+2. The results of calling the second PrintTranscript method: 
+that takes an Iterator and a list of student IDs: 
+
+Kevin Wu's transcript:
+|Class: CIS 36B - Grade: A|
+|Class: CIS 27 - Grade: A|
+|Class: MATH 3B - Grade: A+|
+|Class: PHIL 100 - Grade: A+|
+|Class: COM 5 - Grade: A+|
+
+Irvin Xu's transcript:
+|Class: CIS 36B - Grade: B-|
+|Class: CIS 27 - Grade: C+|
+|Class: MATH 3B - Grade: B+|
+|Class: PHIL 100 - Grade: A-|
+|Class: COM 5 - Grade: B+|
+
+Grant Gadbois's transcript:
+|Class: CIS 36B - Grade: C-|
+|Class: CIS 27 - Grade: C|
+|Class: MATH 3B - Grade: A|
+|Class: PHIL 100 - Grade: B+|
+|Class: COM 5 - Grade: B|
+
+Ale Chiodo's transcript:
+|Class: CIS 36A - Grade: D|
+|Class: CIS 5 - Grade: D+|
+|Class: MATH 3A - Grade: C-|
+|Class: PSYCH 100 - Grade: C+|
+|Class: BUS 28 - Grade: C+|
+
+Corey Collier's transcript:
+|Class: CIS 36B - Grade: A-|
+|Class: CIS 27 - Grade: B+|
+|Class: MATH 3B - Grade: A|
+|Class: PHIL 100 - Grade: A|
+|Class: COM 5 - Grade: B+|
+
+BUILD SUCCESSFUL
+
+Process finished with exit code 0
+*/
